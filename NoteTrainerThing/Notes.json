@@ -1,62 +1,62 @@
 [
 	{
 		"DisplayName" : "A",
-		"FileName" : "E:/SourceCode/NoteTrainerThing/NoteTrainerThing/Sounds/A4-440.0.mp3",
+		"FileName" : "Sounds/A4-440.0.mp3",
 		"Hertz" : "440.0"
 	},
 	{
 		"DisplayName" : "A#",
-		"FileName" : "E:/SourceCode/NoteTrainerThing/NoteTrainerThing/Sounds/Asharp4-466.16.mp3",
+		"FileName" : "Sounds/Asharp4-466.16.mp3",
 		"Hertz" : "466.16"
 	},
 	{
 		"DisplayName" : "B",
-		"FileName" : "E:/SourceCode/NoteTrainerThing/NoteTrainerThing/Sounds/B4-493.88.mp3",
+		"FileName" : "Sounds/B4-493.88.mp3",
 		"Hertz" : "493.88"
 	},
 	{
 		"DisplayName" : "C",
-		"FileName" : "E:/SourceCode/NoteTrainerThing/NoteTrainerThing/Sounds/C4-261.63.mp3",
+		"FileName" : "Sounds/C4-261.63.mp3",
 		"Hertz" : "261.63"
 	},
 	{
 		"DisplayName" : "C#",
-		"FileName" : "E:/SourceCode/NoteTrainerThing/NoteTrainerThing/Sounds/Csharp4-277.18.mp3",
+		"FileName" : "Sounds/Csharp4-277.18.mp3",
 		"Hertz" : "277.18"
 	},
 	{
 		"DisplayName" : "D",
-		"FileName" : "E:/SourceCode/NoteTrainerThing/NoteTrainerThing/Sounds/D4-293.66.mp3",
+		"FileName" : "Sounds/D4-293.66.mp3",
 		"Hertz" : "293.66"
 	},
 	{
 		"DisplayName" : "D#",
-		"FileName" : "E:/SourceCode/NoteTrainerThing/NoteTrainerThing/Sounds/Dsharp4-311.13.mp3",
+		"FileName" : "Sounds/Dsharp4-311.13.mp3",
 		"Hertz" : "311.13"
 	},
 	{
 		"DisplayName" : "E",
-		"FileName" : "E:/SourceCode/NoteTrainerThing/NoteTrainerThing/Sounds/E4-329.63.mp3",
+		"FileName" : "Sounds/E4-329.63.mp3",
 		"Hertz" : "329.63"
 	},
 	{
 		"DisplayName" : "F",
-		"FileName" : "E:/SourceCode/NoteTrainerThing/NoteTrainerThing/Sounds/F4-349.23.mp3",
+		"FileName" : "Sounds/F4-349.23.mp3",
 		"Hertz" : "349.23"
 	},
 	{
 		"DisplayName" : "F#",
-		"FileName" : "E:/SourceCode/NoteTrainerThing/NoteTrainerThing/Sounds/Fsharp4-369.99.mp3",
+		"FileName" : "Sounds/Fsharp4-369.99.mp3",
 		"Hertz" : "369.99"
 	},
 	{
 		"DisplayName" : "G",
-		"FileName" : "E:/SourceCode/NoteTrainerThing/NoteTrainerThing/Sounds/G4-392.0.mp3",
+		"FileName" : "Sounds/G4-392.0.mp3",
 		"Hertz" : "392.0"
 	},
 	{
 		"DisplayName" : "G#",
-		"FileName" : "E:/SourceCode/NoteTrainerThing/NoteTrainerThing/Sounds/Gsharp4-415.3.mp3",
+		"FileName" : "Sounds/Gsharp4-415.3.mp3",
 		"Hertz" : "415.3"
 	}
 ]

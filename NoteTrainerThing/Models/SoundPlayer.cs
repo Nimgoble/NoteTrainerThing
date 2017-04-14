@@ -71,6 +71,14 @@ namespace NoteTrainerThing.Models
 		public void InitializePlayback(string fileName)
 		{
 			_fileName = fileName;
+            if(!System.IO.File.Exists(fileName))
+            {
+                string tempFileName = System.IO.Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, fileName);
+                if (!System.IO.File.Exists(tempFileName))
+                    return;
+                else
+                    _fileName = tempFileName;
+            }
 			_waveSource =
 				CodecFactory.Instance.GetCodec(_fileName)
 					.ToSampleSource()

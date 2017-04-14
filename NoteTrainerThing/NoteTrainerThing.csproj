@@ -135,8 +135,24 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Sounds\A4-440.0.mp3" />
+    <None Include="Sounds\Asharp4-466.16.mp3" />
+    <None Include="Sounds\B4-493.88.mp3" />
+    <None Include="Sounds\C4-261.63.mp3" />
+    <None Include="Sounds\Csharp4-277.18.mp3" />
+    <None Include="Sounds\D4-293.66.mp3" />
+    <None Include="Sounds\Dsharp4-311.13.mp3" />
+    <None Include="Sounds\E4-329.63.mp3" />
+    <None Include="Sounds\F4-349.23.mp3" />
+    <None Include="Sounds\Fsharp4-369.99.mp3" />
+    <None Include="Sounds\G4-392.0.mp3" />
+    <None Include="Sounds\Gsharp4-415.3.mp3" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(ProjectDir)Sounds" "$(TargetDir)Sounds" /I /Y</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
