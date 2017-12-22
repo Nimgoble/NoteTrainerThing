@@ -74,7 +74,7 @@ namespace NoteTrainerThing.ViewModels
 					json = r.ReadToEnd();
 				}
 				List<Note> bareNotes = JsonConvert.DeserializeObject<List<Note>>(json);
-				foreach (Note note in bareNotes)
+				foreach (Note note in bareNotes.OrderBy(x => x.Hertz))
 					notes.Add(new NoteViewModel(note));
 
 				//answerBoard = new AnswerBoardViewModel(notes, null);

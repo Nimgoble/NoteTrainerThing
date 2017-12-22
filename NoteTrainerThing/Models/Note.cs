@@ -6,12 +6,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace NoteTrainerThing.Models {
-	public class Note {
+	public class Note
+	{
 		public String DisplayName { get; set; }
 		public String FileName { get; set; }
 		public float Hertz { get; set; }
 
-		public override bool Equals(object obj) {
+		public override bool Equals(object obj)
+		{
 			if ((obj is Note) == false)
 				return false;
 
